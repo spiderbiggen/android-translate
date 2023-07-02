@@ -1,0 +1,12 @@
+[versions]
+kotlin = "1.8.20"
+compose-multiplatform = "1.4.1"
+
+[libraries]
+
+[bundles]
+
+[plugins]
+org-jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+org-jetbrains-kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+org-jetbrains-compose = { id = "org.jetbrains.compose", version.ref = "compose-multiplatform" }
